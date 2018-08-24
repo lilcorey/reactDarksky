@@ -24,4 +24,4 @@ npm start
 
 Note: For demonstration purposes, enable CORS to query the DarkSky API if you are accessing http://coreyweather.surge.sh. In development a proxy was used to bypass CORS, but for production the full URL was needed for the sake of time and scope of this project. 
 
-Note: If building the project locally, a way to access the API is to remove `${process.env.REACT_APP_WEATHER_URL}` from `const url = ...`. When you `npm start` (assuming you've added your API keys) the proxy will still be in place to sucessfully reach the DarkSky API.
+Note: If building the project locally, a way to access the API is to remove `${process.env.REACT_APP_WEATHER_URL}` from `const url = ...` in `./App.js`. When you `npm start` (assuming you've added your API keys) the proxy will still be in place to sucessfully reach the DarkSky API.
