@@ -21,3 +21,5 @@ Then to run the project on a development server:
 
 npm start
 ```
+
+Note: For demonstration purposes, enable CORS to query the DarkSky API. In development a proxy was used to bypass CORS, but for production the full URL was needed for the sake of time and scope of this project.
