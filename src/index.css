@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search-bar {
+  margin: 20px;
+
+}
+
+.search-bar input {
+  display: inline-block;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+.dayimg, .dayinfo {
+  display: inline-block;
+}
+
+header{
+  margin-bottom: 20px;
+}
