@@ -1,6 +1,6 @@
 # React Weather app
 
-## This weathe forecast is built using Darksky API
+## This weather forecast is built using Darksky API
 
 clone the repo to a working directory:
 ```node
